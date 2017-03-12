@@ -134,16 +134,21 @@ public class FourSomeEngineTests
     @Test
     public void WinnerReturnPlayerWhen4Vertical()
     {
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.GREEN, 1);
+        engine.Put(Colors.GREEN, 1);
+        engine.Put(Colors.GREEN, 1);
+        engine.Put(Colors.GREEN, 1);
         assertThat(engine.Winner(), equalTo(Colors.GREEN));
     }
 
     @Test
     public void WinnerReturnPlayerWhen4Horizontal()
     {
+        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.RED, 1);
+        engine.Put(Colors.RED, 2);
+        engine.Put(Colors.GREEN, 3);
+
         engine.Put(Colors.GREEN, 0);
         engine.Put(Colors.GREEN, 1);
         engine.Put(Colors.GREEN, 2);
@@ -154,44 +159,44 @@ public class FourSomeEngineTests
     @Test
     public void WinnerReturnPlayerWhen4Diagonally()
     {
-        engine.Put(Colors.RED, 0);
-        engine.Put(Colors.RED, 0);
-        engine.Put(Colors.RED, 0);
-        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.RED, 1);
         engine.Put(Colors.RED, 1);
         engine.Put(Colors.RED, 1);
         engine.Put(Colors.GREEN, 1);
         engine.Put(Colors.RED, 2);
+        engine.Put(Colors.RED, 2);
         engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.RED, 3);
         engine.Put(Colors.GREEN, 3);
+        engine.Put(Colors.GREEN, 4);
         assertThat(engine.Winner(), equalTo(Colors.GREEN));
     }
 
     @Test
     public void WinnerReturnPlayerWhen4RDiagonally()
     {
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.RED, 1);
         engine.Put(Colors.GREEN, 1);
-        engine.Put(Colors.RED, 2);
         engine.Put(Colors.RED, 2);
         engine.Put(Colors.GREEN, 2);
         engine.Put(Colors.RED, 3);
         engine.Put(Colors.RED, 3);
-        engine.Put(Colors.RED, 3);
         engine.Put(Colors.GREEN, 3);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.GREEN, 4);
         assertThat(engine.Winner(), equalTo(Colors.GREEN));
     }
 
     @Test
     public void WinnerReturnPlayerWhen4VerticalWithObstacle()
     {
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.RED, 0);
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.GREEN, 0);
-        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.RED, 2);
+        engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.GREEN, 2);
         assertThat(engine.Winner(), equalTo(Colors.GREEN));
     }
 
@@ -201,8 +206,15 @@ public class FourSomeEngineTests
         engine.Put(Colors.GREEN, 0);
         engine.Put(Colors.RED, 1);
         engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.RED, 3);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.GREEN, 5);
+        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.RED, 1);
+        engine.Put(Colors.GREEN, 2);
         engine.Put(Colors.GREEN, 3);
         engine.Put(Colors.GREEN, 4);
+        engine.Put(Colors.GREEN, 5);
         assertThat(engine.Winner(), equalTo(Colors.GREEN));
     }
 
