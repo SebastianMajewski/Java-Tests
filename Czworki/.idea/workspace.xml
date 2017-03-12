@@ -16,7 +16,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,9 +30,11 @@
       <file leaf-file-name="FoursomeEngineInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FoursomeEngineInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="9" column="103" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,13 +42,12 @@
       <file leaf-file-name="FourSomeEngine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FourSomeEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,14 +56,25 @@
       <file leaf-file-name="FourSomeEngineTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#IsFullReturnFalseWhenNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
                 <element signature="method#IsFullReturnTrueWhenFull#0;class#FourSomeEngineTests#0" expanded="false" />
                 <element signature="method#CanPutReturnTrueWhenColumnNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
                 <element signature="method#CanPutReturnFalseWhenColumnFull#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#GetBoardReturns6x7Board#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#PutPlacesRight#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#PutThrowsInvalidParameterExceptionWhenCanPutFalse#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4Vertical#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4Horizontal#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4Diagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4RDiagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4VerticalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4HorizontalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4DiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+                <element signature="method#WinnerReturnPlayerWhen4RDiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -91,6 +103,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Enums/Colors.java" />
         <option value="$PROJECT_DIR$/src/main/java/IFoursomeInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/FourSome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FoursomeEngineInterface.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TwoDimensionalLEngthMatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Dimension.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TwoDimensionalLengthMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/FourSomeEngine.java" />
         <option value="$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java" />
       </list>
@@ -117,6 +133,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,9 +212,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,7 +220,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.FourSomeEngineTests.IsFullReturnTrueWhenFull">
+  <component name="RunManager" selected="JUnit.FourSomeEngineTests.GetBoardReturns6x7Board">
     <configuration default="false" name="FourSomeEngineTests.IsFullReturnFalseWhenNotFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Czworki" />
@@ -234,6 +250,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FourSomeEngineTests" />
       <option name="METHOD_NAME" value="IsFullReturnTrueWhenFull" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FourSomeEngineTests.GetBoardReturns6x7Board" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Czworki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FourSomeEngineTests" />
+      <option name="METHOD_NAME" value="GetBoardReturns6x7Board" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -396,14 +433,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.IsFullReturnFalseWhenNotFull" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.IsFullReturnTrueWhenFull" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.GetBoardReturns6x7Board" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.IsFullReturnTrueWhenFull" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.IsFullReturnFalseWhenNotFull" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.GetBoardReturns6x7Board" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.IsFullReturnTrueWhenFull" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FourSomeEngineTests.IsFullReturnFalseWhenNotFull" />
       </list>
     </recent_temporary>
   </component>
@@ -421,6 +460,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="FourSomeEngineTests_GetBoardReturns6x7Board - 2017.03.11 at 21h 38m 03s.xml">
+      <configuration name="FourSomeEngineTests.GetBoardReturns6x7Board" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FourSomeEngineTests_GetBoardReturns6x7Board - 2017.03.11 at 21h 38m 22s.xml">
+      <configuration name="FourSomeEngineTests.GetBoardReturns6x7Board" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FourSomeEngineTests_IsFullReturnFalseWhenNotFull - 2017.03.09 at 21h 31m 06s.xml">
       <configuration name="FourSomeEngineTests.IsFullReturnFalseWhenNotFull" configurationId="JUnit" />
     </history-entry>
@@ -432,28 +477,28 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25809062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -464,12 +509,30 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java</url>
-          <line>38</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -478,11 +541,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/IFoursomeEngine">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FoursomeEngineInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="103" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FourSomeEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#IsFullReturnFalseWhenNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#IsFullReturnTrueWhenFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#CanPutReturnTrueWhenColumnNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#CanPutReturnFalseWhenColumnFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#GetBoardReturns6x7Board#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#PutPlacesRight#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#PutThrowsInvalidParameterExceptionWhenCanPutFalse#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Vertical#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Horizontal#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Diagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4RDiagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4VerticalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4HorizontalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4DiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4RDiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -494,19 +604,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Colors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FoursomeEngineInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -515,24 +619,106 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#IsFullReturnFalseWhenNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
             <element signature="method#IsFullReturnTrueWhenFull#0;class#FourSomeEngineTests#0" expanded="false" />
             <element signature="method#CanPutReturnTrueWhenColumnNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
             <element signature="method#CanPutReturnFalseWhenColumnFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#GetBoardReturns6x7Board#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#PutPlacesRight#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#PutThrowsInvalidParameterExceptionWhenCanPutFalse#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Vertical#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Horizontal#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Diagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4RDiagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4VerticalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4HorizontalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4DiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4RDiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IFoursomeEngine" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Colors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Dimension.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Has6x7Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FoursomeEngineInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="103" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FourSomeEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourSomeEngineTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#IsFullReturnFalseWhenNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#IsFullReturnTrueWhenFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#CanPutReturnTrueWhenColumnNotFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#CanPutReturnFalseWhenColumnFull#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#GetBoardReturns6x7Board#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#PutPlacesRight#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#PutThrowsInvalidParameterExceptionWhenCanPutFalse#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Vertical#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Horizontal#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4Diagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4RDiagonally#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4VerticalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4HorizontalWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4DiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
+            <element signature="method#WinnerReturnPlayerWhen4RDiagonallyWithObstacle#0;class#FourSomeEngineTests#0" expanded="false" />
           </folding>
         </state>
       </provider>
