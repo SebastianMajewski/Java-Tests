@@ -67,7 +67,7 @@ public class FourSomeEngineTests
     @Test
     public void CanPutReturnFalseWhenColumnFull()
     {
-        for (int j = 0; j < 5; j++)
+        for (int j = 0; j < 6; j++)
         {
             engine.Put(Colors.GREEN, 0);
         }
@@ -111,9 +111,9 @@ public class FourSomeEngineTests
         engine.Put(Colors.GREEN, 0);
         engine.Put(Colors.RED, 1);
         engine.Put(Colors.RED, 0);
-        assertThat(engine.GetBoard()[0][0], equalTo(Colors.GREEN));
-        assertThat(engine.GetBoard()[0][1], equalTo(Colors.RED));
-        assertThat(engine.GetBoard()[1][0], equalTo(Colors.RED));
+        assertThat(engine.GetBoard()[5][0], equalTo(Colors.GREEN));
+        assertThat(engine.GetBoard()[5][1], equalTo(Colors.RED));
+        assertThat(engine.GetBoard()[4][0], equalTo(Colors.RED));
     }
 
     @Test(expected = InvalidParameterException.class)
