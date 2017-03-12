@@ -126,8 +126,53 @@ public class FourSomeEngineTests
     }
 
     @Test
-    public void WinnerReturnNoneWhenNoOneWin()
+    public void WinnerReturnNoneWhenNoOneWinEmpty()
     {
+        assertThat(engine.Winner(), equalTo(Colors.NONE));
+    }
+
+    @Test
+    public void WinnerReturnNoneWhenNoOneWinNotEmpty()
+    {
+        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.RED, 0);
+        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.RED, 0);
+        engine.Put(Colors.GREEN, 0);
+        engine.Put(Colors.RED, 0);
+        engine.Put(Colors.RED, 1);
+        engine.Put(Colors.RED, 1);
+        engine.Put(Colors.RED, 1);
+        engine.Put(Colors.GREEN, 1);
+        engine.Put(Colors.RED, 1);
+        engine.Put(Colors.GREEN, 1);
+        engine.Put(Colors.RED, 2);
+        engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.RED, 2);
+        engine.Put(Colors.RED, 2);
+        engine.Put(Colors.GREEN, 2);
+        engine.Put(Colors.RED, 2);
+        engine.Put(Colors.GREEN, 3);
+        engine.Put(Colors.RED, 3);
+        engine.Put(Colors.GREEN, 3);
+        engine.Put(Colors.GREEN, 4);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.GREEN, 4);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.RED, 4);
+        engine.Put(Colors.GREEN, 4);
+        engine.Put(Colors.RED, 5);
+        engine.Put(Colors.GREEN, 5);
+        engine.Put(Colors.RED, 5);
+        engine.Put(Colors.RED, 5);
+        engine.Put(Colors.GREEN, 5);
+        engine.Put(Colors.RED, 5);
+        engine.Put(Colors.GREEN, 6);
+        engine.Put(Colors.RED, 6);
+        engine.Put(Colors.GREEN, 6);
+        engine.Put(Colors.GREEN, 6);
+        engine.Put(Colors.RED, 6);
+        engine.Put(Colors.RED, 6);
         assertThat(engine.Winner(), equalTo(Colors.NONE));
     }
 
