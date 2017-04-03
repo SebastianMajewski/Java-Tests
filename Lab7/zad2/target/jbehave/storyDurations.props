@@ -1,0 +1,9 @@
+#org.jbehave.core.embedder.StoryManager
+#Mon Apr 03 15:53:25 CEST 2017
+file\:stories/ConsoleParamStory.story=0
+threads=1
+total=0
+file\:stories/FParamStory.story=0
+threadAverage=0
+file\:stories/AppleStory.story=0
+file\:stories/ParamStory.story=0
